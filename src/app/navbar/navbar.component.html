@@ -1,0 +1,41 @@
+<style>
+    .bg-gray-800 {
+        background-color: #141619;
+    }
+</style>
+
+<nav class="bg-gray-800 text-white p-4 flex items-center justify-between">
+  <div class="logo pl-5 flex items-center">
+    <img src="assets/images/logo.png" alt="Logo" class="h-10 w-auto mr-4" />
+  </div>
+
+  <ul class="hidden md:flex space-x-8">
+    <li><a href="#" class="hover:text-gray-300 text-[14px]">ABOUT US</a></li>
+    <li class="relative group flex items-center">
+      <button class="hover:text-gray-300 flex items-center text-[14px]">
+        OUR SERVICES
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="h-4 w-4 ml-1"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+        </svg>
+      </button>
+    
+      <ul
+        class="absolute left-0 top-full mt-2 hidden w-40 bg-white text-gray-800 rounded-md shadow-lg group-hover:block z-10"
+      >
+        <li><a href="#" class="block px-4 py-2 hover:bg-gray-100">Service 1</a></li>
+        <li><a href="#" class="block px-4 py-2 hover:bg-gray-100">Service 2</a></li>
+        <li><a href="#" class="block px-4 py-2 hover:bg-gray-100">Service 3</a></li>
+      </ul>
+    </li>
+    <li><a href="#" class="hover:text-gray-300 text-[14px]">WORK WITH US</a></li>
+    <li><a href="#" class="hover:text-gray-300 text-[14px]">BLOG</a></li>
+  </ul>
+
+  <div class="pr-5 flex text-center items-center">
+    <button class="flex items-center bg-white text-gray-800 px-4 py-2 rounded-full text-[14px]">
+        <span class="bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 rounded-full h-4 w-4 flex items-center justify-center mr-2">
+        </span>
+        <span class="text-[14px]">GET IN TOUCH</span> 
+    </button>
+  </div>
+  
+</nav>
